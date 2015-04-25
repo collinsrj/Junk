@@ -77,11 +77,8 @@
 		9F2B87651AEAB4B5006EDD24 /* Junk */ = {
 			isa = PBXGroup;
 			children = (
-				9F2B87681AEAB4B5006EDD24 /* AppDelegate.swift */,
 				9F2B876A1AEAB4B5006EDD24 /* ViewController.swift */,
 				9F2B876C1AEAB4B5006EDD24 /* Main.storyboard */,
-				9F2B876F1AEAB4B5006EDD24 /* Images.xcassets */,
-				9F2B87711AEAB4B5006EDD24 /* LaunchScreen.xib */,
 				9F2B87661AEAB4B5006EDD24 /* Supporting Files */,
 			);
 			path = Junk;
@@ -90,6 +87,9 @@
 		9F2B87661AEAB4B5006EDD24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F2B87681AEAB4B5006EDD24 /* AppDelegate.swift */,
+				9F2B876F1AEAB4B5006EDD24 /* Images.xcassets */,
+				9F2B87711AEAB4B5006EDD24 /* LaunchScreen.xib */,
 				9F2B87671AEAB4B5006EDD24 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -272,6 +272,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -317,6 +318,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
